@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Carona UFMA</string>
+    <string name="title_activity_act_main">Tela Inicial</string>
+    <string name="title_activity_cadastro">CadastroActivity</string>
+    <string name="title_activity_cadastrar_perfil">CadastrarPerfilActivity</string>
+    <string name="title_activity_termos">TermosActivity</string>
+    <string name="title_activity_cadastrar_carona">CadastrarCarona</string>
+    <string name="dia">Coloque a data de hoje aqui</string>
+</resources>

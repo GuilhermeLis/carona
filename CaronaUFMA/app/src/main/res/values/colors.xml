@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dd155b</color>
+    <color name="colorPrimaryDark">#c80529</color>
+    <color name="colorAccent">#d81b60</color>
+    <color name="botão">#b19e08</color>
+    <color name="background_material_light">#366b88</color>
+    <color name="Backgroud">#346784</color>
+</resources>

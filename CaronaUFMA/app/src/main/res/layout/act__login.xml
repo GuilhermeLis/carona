@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#346784">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Backgroud"
+        tools:context=".act_Login">
+
+        <ImageView
+            android:id="@+id/logoTIpo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:contentDescription="@logotipo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logotipo"
+            tools:srcCompat="@drawable/logotipo" />
+
+        <com.vicmikhailau.maskededittext.MaskedEditText
+            android:id="@+id/editTextIdMatriculaL"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            app:mask="##########"
+            android:hint="Matrícula"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logoTIpo" />
+
+        <EditText
+            android:id="@+id/editTextIdSenhaL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextIdMatriculaL" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="79dp"
+            android:layout_height="27dp"
+            android:background="@color/botão"
+            android:text="Sair"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonId"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="148dp"
+            android:background="@color/botão"
+            android:text="Logar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextIdSenhaL" />
+
+        <Button
+            android:id="@+id/buttonIdTryCadastrar"
+            android:layout_width="114dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/botão"
+            android:text="Cadastrar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonId" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
